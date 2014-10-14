@@ -4,7 +4,7 @@ var wHeight = $(window).height();
 var wWidth = $(window).width();
 $('.main-block').css('height', wHeight);
 if ( (wHeight / wWidth) < (9/16) ) {
-	$('.main-block video').css('width','100%')
+	$('.main-block video').css('width','100%');
 } else {
 	$('.main-block video').css('height','100%')
 };
