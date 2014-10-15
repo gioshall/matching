@@ -1,3 +1,13 @@
+// device
+
+$(document).ready(function(){
+var device = navigator.userAgent.toLowerCase();
+var mobile = device.match(/(iphone|ipod|ipad|android)/);
+if (mobile) {
+     $(".main-block").addClass("mobile");
+     }
+});
+
 // height width
 
 var wHeight = $(window).height();

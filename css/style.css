@@ -47,8 +47,12 @@ body {
 }
 
 .main-block.fixed {
-	/*position: fixed;*/
+	position: fixed;
 	background-color: #000;
+}
+
+.main-block.mobile {
+	position: absolute;
 }
 
 .main-block iframe ,.main-block video {
