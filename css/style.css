@@ -53,6 +53,9 @@ body {
 
 .main-block.mobile {
 	position: absolute;
+	background: #000 url(../img/m-bg.jpg) fixed no-repeat;
+	background-color: #cc0000;
+	background-size: cover;
 }
 
 .main-block iframe ,.main-block video {
