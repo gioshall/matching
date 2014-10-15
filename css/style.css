@@ -53,7 +53,7 @@ body {
 
 .main-block.mobile {
 	position: absolute;
-	background: #000 url(../img/m-bg.jpg) fixed no-repeat;
+	background: #000 url(../img/m-bg.jpg) 0 0 no-repeat;
 	background-size: cover;
 }
 
