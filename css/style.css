@@ -57,6 +57,10 @@ body {
 	background-size: cover;
 }
 
+.main-block.mobile .video-mask {
+	background: rgba(0,0,0,0.3);
+}
+
 .main-block iframe ,.main-block video {
 	position: absolute;
 	top: 0;
