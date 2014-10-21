@@ -32,8 +32,8 @@ $( window ).resize(function() {
 
 // random hands
 
-var rdmA = Math.floor(Math.random()*(7-0));
-var rdmB = Math.floor(Math.random()*(7-0));
+var rdmA = Math.floor(Math.random()*(9-0));
+var rdmB = Math.floor(Math.random()*(9-0));
 
 $('.section-story01 .ip-w .hand' + rdmA).show();
 $('.section-story01 .ip-b .hand' + rdmB).show();
