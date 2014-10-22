@@ -148,11 +148,11 @@ p {
 }
 
 .section-story01 .ip-w {
-	left: -10%;
+	left: 15%;
 }
 
 .section-story01 .ip-b {
-	right: -10%;
+	right: 15%;
 }
 
 .section-story01 .hands {
@@ -164,7 +164,7 @@ p {
 
 
 .section-story02 {
-	background-color: #ccc;
+	background-color: #999;
 	color:#fff;
 }
 
