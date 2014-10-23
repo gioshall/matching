@@ -468,7 +468,7 @@ p {
 .section-story03 .game-cover-new li .dis {
 	font-size: 18px;
 	line-height: 35px;
-	background-color: #011a4c;
+	background-color: rgba(20,45,85,.9);
 	color:#fef668;
 	padding: 3px 8px;
 	border-radius: 5px;
