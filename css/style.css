@@ -368,10 +368,11 @@ p {
 	right: 0;
 }
 
-/*.section-story03 .game-cover {
+.section-story03 .game-cover {
 	text-align: center;
 	top: 300px;
 	position: absolute;
+	display: none;
 }
 
 .section-story03 .game-cover li {
@@ -411,7 +412,7 @@ p {
 
 .section-story03 .game-cover li.active span {
 	display: block;
-}*/
+}
 
 .section-story03 .game-cover-new {
 	text-align: center;
@@ -765,6 +766,14 @@ p {
 
   .section-story02 p {
   	display: block;
+  }
+
+  .section-story03 .game-cover {
+	display: block;
+  }
+
+  .section-story03 .game-cover-new {
+	display: none;
   }
 
   .footer{
