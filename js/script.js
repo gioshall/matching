@@ -65,17 +65,28 @@ $( window ).scroll(function(){
 
 // DUI
 
+$( '.anlg-act' ).mousemove(function( event ) {
+    $('.anlg-btn').css({'margin-left' : event.clientX -397 , 'margin-top' : event.clientY -397 })
+});
+
+$( '.anlg-act' ).mouseout(function() {
+    $('.anlg-btn').attr('style','transition:0.3s')
+});
+$( '.anlg-act' ).mouseover(function() {
+    $('.anlg-btn').attr('style','transition:0')
+});
+
 $('.btn-y').mousedown(function(){
-$('.dui-y').css('bottom','229px');
+$('.dui-y').css({'bottom':'229px','opacity':'1'});
 });
 $('.btn-x').mousedown(function(){
-$('.dui-b').css('right','115px');
+$('.dui-b').css({'right':'115px','opacity':'1'});
 });
 $('.btn-b').mousedown(function(){
-$('.dui-r').css('right','-860px');
+$('.dui-r').css({'right':'-860px','opacity':'1'});
 });
 $('.btn-a').mousedown(function(){
-$('.dui-g').css('bottom','-800px');
+$('.dui-g').css({'bottom':'-800px','opacity':'1'});
 });
 
 $('.dui-02 li').mouseup(function(){
