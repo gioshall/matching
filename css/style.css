@@ -179,6 +179,10 @@ p {
 	margin-top: 130px;
 }
 
+.section-story02 p {
+	display: none;
+}
+
 .section-story02 .dui-01 ,.section-story02 .dui-02 {
 	width: 495px;
 	height: 495px;
@@ -754,6 +758,15 @@ p {
   .app-donload {
 	margin: 30px auto 0;
   }
+
+  .section-story02 .dui-01 span, .section-story02 .dui-02 span{ 
+		display: none;
+  }
+
+  .section-story02 p {
+  	display: block;
+  }
+
   .footer{
   	position: absolute;
   	height: auto;

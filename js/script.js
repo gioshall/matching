@@ -119,3 +119,8 @@ function slideSwitch() {
 $(function() {
     setInterval( "slideSwitch()", 5000 );
 });
+
+$('.game-cover-new li').mouseover(function(){
+    $('.game-cover-new li').removeClass('active');
+    $(this).addClass('active')
+})
