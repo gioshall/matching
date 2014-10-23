@@ -109,13 +109,13 @@ $('.game-cover .lghp').mouseover(function(){
 // slideshow
 
 function slideSwitch() {
-    var $active = $('.section-story03 .game-cover li.active');
+    var $active = $('.section-story03 .game-cover-new li.active');
     var $next =  $active.next().length ? $active.next()
-        : $('.section-story03 .game-cover li:first');
+        : $('.section-story03 .game-cover-new li:first');
     $active.removeClass('active')
     $next.addClass('active')
 }
 
 $(function() {
-    setInterval( "slideSwitch()", 3000 );
+    setInterval( "slideSwitch()", 5000 );
 });

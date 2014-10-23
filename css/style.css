@@ -330,11 +330,12 @@ p {
 
 .section-story03 h2 ,.section-story03 p {
 	width: 650px;
+	text-align: center;
 	margin: auto;
 }
 
 .section-story03 h2 {
-	margin-top: 170px;
+	margin-top: 100px;
 }
 
 .section-story03 p span {
@@ -363,7 +364,7 @@ p {
 	right: 0;
 }
 
-.section-story03 .game-cover {
+/*.section-story03 .game-cover {
 	text-align: center;
 	top: 300px;
 	position: absolute;
@@ -405,6 +406,107 @@ p {
 }
 
 .section-story03 .game-cover li.active span {
+	display: block;
+}*/
+
+.section-story03 .game-cover-new {
+	text-align: center;
+	top: 50px;
+	position: relative;
+}
+
+.section-story03 .game-cover-new li {
+	display: inline-block;
+	width: 410px;
+	height: 270px;
+	margin: 3px;
+	opacity: .5;
+	position: relative;
+	-webkit-transition:0.3s ease-in;
+	transition:0.3s ease-in;
+}
+
+.section-story03 .game-cover-new li span {
+	position: absolute;
+	top: 180px;
+	width: 100%;
+	left: 0;
+	font-size: 20px;
+	line-height: 50px;
+	display: none;
+}
+
+.section-story03 .game-cover-new li img {
+	width: 200px;
+	top: 0px;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	-ms-filter: grayscale(80%);
+	filter: grayscale(80%);
+	filter: gray; /* IE 6-9 */
+	-webkit-transition:0.3s ease-in;
+	transition:0.3s ease-in;
+}
+
+.section-story03 .game-cover-new li img:nth-of-type(1) {
+	left: 0;
+}
+
+.section-story03 .game-cover-new li img:nth-of-type(2) {
+	right: 0;
+}
+
+.section-story03 .game-cover-new li .dis {
+	font-size: 18px;
+	line-height: 35px;
+	background-color: #011a4c;
+	color:#fef668;
+	padding: 3px 8px;
+	border-radius: 5px;
+	position: absolute;
+	width: 450px;
+	left: 50%;
+	top: 300px;
+	margin-left: -225px;
+	opacity: 0;
+}
+
+.section-story03 .game-cover-new li.active {
+	opacity: 1;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0 0 25px 15px rgba(0,0,0,0.6);
+}
+
+.section-story03 .game-cover-new li.active img {
+	width: 220px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.8);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: none; /* IE 6-9 */
+}
+
+.section-story03 .game-cover-new li.active img:nth-of-type(1) {
+	top: -15px;
+	left: -12px;
+}
+
+.section-story03 .game-cover-new li.active img:nth-of-type(2) {
+	top: -15px;
+	right: -28px;
+}
+
+.section-story03 .game-cover-new li.active .dis {
+	opacity: 1;
+}
+
+.section-story03 .game-cover-new li.active span {
 	display: block;
 }
 
