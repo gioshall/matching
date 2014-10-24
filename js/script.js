@@ -65,8 +65,10 @@ $( window ).scroll(function(){
 
 // DUI
 
-$( '.anlg-act' ).mousemove(function( event ) {
-    $('.anlg-btn').css({'margin-left' : event.clientX -397 , 'margin-top' : event.clientY -397 })
+$( '.anlg-act' ).mousemove(function( e ) {
+    var x = e.pageX - $(e.target).offset().left;
+    var y = e.pageY - $(e.target).offset().top;
+    $('.anlg-btn').css({'margin-left' : x -395 , 'margin-top' : y -395 })
 });
 
 $( '.anlg-act' ).mouseout(function() {
