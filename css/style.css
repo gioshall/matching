@@ -327,8 +327,8 @@ p {
 }
 
 .section-story03 {
-	background: url(../img/glxy.jpg) no-repeat;
-	background-size: cover;
+	background: url(../img/game-bg.jpg) #4cb5be right no-repeat;
+	background-size: auto 100%;
 	color: #fff;
 }
 
@@ -422,10 +422,10 @@ p {
 
 .section-story03 .game-cover-new li {
 	display: inline-block;
-	width: 410px;
+	width: 400px;
 	height: 270px;
 	margin: 3px;
-	opacity: .5;
+	opacity: .4;
 	position: relative;
 	-webkit-transition:0.3s ease-in;
 	transition:0.3s ease-in;
@@ -442,7 +442,7 @@ p {
 }
 
 .section-story03 .game-cover-new li img {
-	width: 200px;
+	width: 190px;
 	top: 0px;
 	height: auto;
 	display: inline-block;
@@ -458,11 +458,11 @@ p {
 }
 
 .section-story03 .game-cover-new li img:nth-of-type(1) {
-	left: 0;
+	left: 5px;
 }
 
 .section-story03 .game-cover-new li img:nth-of-type(2) {
-	right: 0;
+	right: 5px;
 }
 
 .section-story03 .game-cover-new li .dis {
@@ -483,8 +483,8 @@ p {
 .section-story03 .game-cover-new li.active {
 	opacity: 1;
 	z-index: 1;
-	background-color: rgba(0,0,0,0.6);
-	box-shadow: 0 0 25px 15px rgba(0,0,0,0.6);
+	/*background-color: rgba(0,0,0,0.6);
+	box-shadow: 0 0 25px 15px rgba(0,0,0,0.6);*/
 }
 
 .section-story03 .game-cover-new li.active img {
@@ -499,12 +499,12 @@ p {
 
 .section-story03 .game-cover-new li.active img:nth-of-type(1) {
 	top: -15px;
-	left: -12px;
+	left: -17px;
 }
 
 .section-story03 .game-cover-new li.active img:nth-of-type(2) {
 	top: -15px;
-	right: -28px;
+	right: -33px;
 }
 
 .section-story03 .game-cover-new li.active .dis {
@@ -516,17 +516,19 @@ p {
 }
 
 .section-story04 {
-	background: #271f1f url(../img/fun.jpg) bottom right no-repeat;
-	background-size: auto 100%;
+	background: #5677fc;
+	background: url(../img/glxy.jpg) 0 0 no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 
 .section-story04 h2 {
-	margin-top: 200px;
+	margin-top: 250px;
 }
 
 .section-story04 h2 ,.section-story04 p {
 	width: 380px;
+	margin-left: 100px;
 }
 
 .section-story04 span {
@@ -535,9 +537,19 @@ p {
 	display: block;
 	position: absolute;
 	bottom: 10px;
-	color: #fff;
+	color: #333;
 	width: 100%;
 	text-align: center;
+}
+
+.section-story04 .cnnct-logo {
+	position: absolute;
+	right: 100px;
+	top: 0;
+}
+
+.section-story04 .cnnct-logo li {
+	display: inline-block;
 }
 
 .app-donload {
