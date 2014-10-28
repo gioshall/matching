@@ -1,0 +1,25 @@
+body{
+	display:none;
+}
+#jpreOverlay {
+	background: #ccc url(../img/logo.png) center no-repeat;
+}
+#jpreSlide{
+	font-size:22px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	width:50%;
+	height:30%;
+	font-family:arial
+}
+#jpreLoader{
+	width:100%;
+	height:5px;
+}
+#jpreBar {
+	background-color: #fff;
+}
+#jprePercentage {
+	display: none;
+}

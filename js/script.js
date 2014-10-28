@@ -1,3 +1,14 @@
+// preload //
+
+$(document).ready( function() {
+    var timer;   
+    $('body').jpreLoader({
+        splashID: "#jSplash",
+        loaderVPos: '0%',
+        autoClose: true        
+    }); 
+});
+
 // device
 
 $(document).ready(function(){
