@@ -89,20 +89,20 @@ $( '.anlg-act' ).mouseover(function() {
     $('.anlg-btn').attr('style','transition:0')
 });
 
-$('.btn-y').mousedown(function(){
+$('.btn-y').mouseover(function(){
 $('.dui-y').css({'bottom':'229px','opacity':'1'});
 });
-$('.btn-x').mousedown(function(){
+$('.btn-x').mouseover(function(){
 $('.dui-b').css({'right':'115px','opacity':'1'});
 });
-$('.btn-b').mousedown(function(){
+$('.btn-b').mouseover(function(){
 $('.dui-r').css({'right':'-860px','opacity':'1'});
 });
-$('.btn-a').mousedown(function(){
+$('.btn-a').mouseover(function(){
 $('.dui-g').css({'bottom':'-800px','opacity':'1'});
 });
 
-$('.dui-02 li').mouseup(function(){
+$('.dui-02 li').mouseout(function(){
 $('.section-story02 img').attr('style','');
 });
 
@@ -122,9 +122,9 @@ $('.game-cover .lghp').mouseover(function(){
 // slideshow
 
 function slideSwitch() {
-    var $active = $('.section-story03 .game-cover-new li.active');
+    var $active = $('.section-story03 .game-cover li.active, .section-story03 .game-cover-new li.active');
     var $next =  $active.next().length ? $active.next()
-        : $('.section-story03 .game-cover-new li:first');
+        : $('.section-story03 .game-cover li:first,.section-story03 .game-cover-new li:first');
     $active.removeClass('active')
     $next.addClass('active')
 }
@@ -133,7 +133,7 @@ $(function() {
     setInterval( "slideSwitch()", 5000 );
 });
 
-$('.game-cover-new li').mouseover(function(){
-    $('.game-cover-new li').removeClass('active');
+$('.game-cover li, .game-cover-new li').mouseover(function(){
+    $('.game-cover li, .game-cover-new li').removeClass('active');
     $(this).addClass('active')
 })

@@ -39,6 +39,11 @@ body {
 	font-family: helvetica,'LiHei Pro','Heiti TC','微軟正黑體';
 }
 
+::selection {
+	background-color: #000;
+	color: #fff;
+}
+
 .main-block {
 	width: 100%;
 	display: block;
@@ -165,10 +170,9 @@ p {
 
 
 .section-story02 {
-	background-color: #999;
-	background: url(../img/dui.jpg) no-repeat;
-	background-size: cover;
-	color:#fff;
+	background-color: #dadada;
+	background: #dadada url(../img/spacer.png);
+	color:#333;
 }
 
 .section-story02 h2 ,.section-story02 p {
@@ -198,7 +202,7 @@ p {
 
 .section-story02 .dui-01 .anlg {
 	position: absolute;
-	opacity: .5;
+	opacity: .6;
 	top: 2px;
 	left: 2px;
 	width: 491px;
@@ -216,7 +220,7 @@ p {
 	margin-top: -135px;
 	margin-left: -135px;
 	border-radius: 50%;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.6);
 }
 
 .section-story02 .dui-01 .anlg .anlg-act {
@@ -328,8 +332,8 @@ p {
 }
 
 .section-story03 {
-	background: url(../img/game-bg.jpg) #5e7efe right no-repeat;
-	background-size: auto 100%;
+	background: url(../img/congrats-bg.jpg) top center no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 
@@ -341,6 +345,10 @@ p {
 
 .section-story03 h2 {
 	margin-top: 100px;
+}
+
+.section-story03 p {
+	font-size: 22px;
 }
 
 .section-story03 p span {
@@ -467,17 +475,28 @@ p {
 }
 
 .section-story03 .game-cover-new li .dis {
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 35px;
 	color:#fff;
 	padding: 3px 8px;
 	border-radius: 5px;
 	position: absolute;
-	width: 460px;
-	left: 50%;
-	top: 270px;
-	margin-left: -230px;
+	width: 1200px;
+	left: 0;
+	top: 280px;
 	opacity: 0;
+}
+
+.section-story03 .game-cover-new li:nth-of-type(1) .dis {
+	left: 0px;
+}
+
+.section-story03 .game-cover-new li:nth-of-type(2) .dis {
+	left: -400px;
+}
+
+.section-story03 .game-cover-new li:nth-of-type(3) .dis {
+	left: -800px;
 }
 
 .section-story03 .game-cover-new li.active {
@@ -570,6 +589,7 @@ p {
 
 .section-story04 .cnnct-logo li {
 	display: inline-block;
+	margin: 5px;
 }
 
 .app-donload {
@@ -885,7 +905,7 @@ p {
 	}
 
 	.section-story03 .game-cover {
-		left: 15px;
+		width: 100%;
 	}
 
 	.section-story03 .game-cover li ,.section-story03 .game-cover li img {
@@ -894,6 +914,13 @@ p {
 
 	.section-story03 .game-cover li.active img {
 		width: 110px;
+	}
+
+	.section-story04 .cnnct-logo {
+		top: 180px;
+		width: 100%;
+		text-align: center;
+		right: 0;
 	}
 
 	.app-donload {
@@ -1111,6 +1138,14 @@ p {
 		top: 250px;
 		color: #333;
 	}
+
+	.section-story04 .cnnct-logo li {
+		width: 40%;
+    }
+
+	.section-story04 .cnnct-logo li img {
+		width: 100%;
+    }
 
     .app-donload {
     	width: 310px;

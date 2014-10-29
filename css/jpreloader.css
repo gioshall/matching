@@ -23,3 +23,8 @@ body{
 #jprePercentage {
 	display: none;
 }
+
+@media screen and (max-width: 568px) {
+	#jpreOverlay {
+		background-size: 70%
+	}
