@@ -876,7 +876,12 @@ p {
 	}
 
 	.section-story02 .dui-01 {
+		background: url(../img/blk02-dui01.png) 0 0 no-repeat
 		left: -270px;
+	}
+
+	.section-story02 .dui-01 .anlg-btn, .section-story02 .dui-01 .anlg-act {
+		display: none;
 	}
 
 	.section-story02 .dui-02 {
