@@ -209,6 +209,7 @@ p {
 	height: 491px;
 	border-radius: 50%;
 	border: 2px #fff solid;
+	border: 0 \9;
 }
 
 .section-story02 .dui-01 .anlg .anlg-btn {
@@ -382,6 +383,10 @@ p {
 	top: 300px;
 	position: absolute;
 	display: none;
+	top: 100px \9;
+	position: relative \9;
+	margin: auto \9;
+	display: block \9;
 }
 
 .section-story03 .game-cover li {
@@ -414,7 +419,9 @@ p {
 	width: 130px;
 	margin-left: 0;
 	top: -5px;
-	box-shadow: 0 0 0 3px #84ffff;
+	box-shadow: 0 0 0 3px #fff;
+	border: 3px #fff solid \9;
+	top: -8px \9;
     transition: 0.2s ease;
 	-webkit-transition: 0.2s ease;
 }
@@ -427,6 +434,7 @@ p {
 	text-align: center;
 	top: 50px;
 	position: relative;
+	display: none \9;
 }
 
 .section-story03 .game-cover-new li {
