@@ -119,6 +119,13 @@ $('.game-cover .lghp').mouseover(function(){
 });
 
 
+$('.dvc').click(function(){
+    $('.devices').fadeIn(200)
+});
+$('.devices .close').click(function(){
+    $('.devices').fadeOut(100)
+});
+
 // slideshow
 
 function slideSwitch() {

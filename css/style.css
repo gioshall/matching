@@ -672,6 +672,64 @@ p {
 	text-decoration: none;
 }
 
+.devices {
+	width: 1100px;
+	margin-left: -70px;
+	padding: 10px 0 0 0;
+	position: absolute;
+	top: 0;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 10;
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	display: none;
+}
+
+.devices .close {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: url(../img/icon-close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.devices li{
+	width: 16.6%;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.devices li:last-child{
+	width: 17%;
+}
+
+.devices ol{
+	border-top: 1px #acacac solid;
+	padding: 10px 0 10px 15%;
+	margin: 10px 0;
+	width: 85%;
+}
+
+.devices ol li{
+	display: block;
+	font-size: 13px;
+	line-height: 23px;
+	color:#666;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	list-style-type:disc;
+	white-space: nowrap;
+}
+
 .footer {
 	color: #fff;
 	background-color: #000;
@@ -834,6 +892,23 @@ p {
 
   .section-story03 .game-cover-new {
 	display: none;
+  }
+
+  .devices{
+	width: 90%;
+	left: 5%;
+	margin-left: 0;
+  }
+  .devices li,.devices li:last-child{
+  	width: 16.6%;
+  }
+  .devices li img{
+	width: 94%;
+	margin: 0 3%;
+  }
+  .devices ol li{
+	font-size: 11px;
+	line-height: 16px;
   }
 
   .footer{
@@ -1074,6 +1149,24 @@ p {
     	margin-top: 18px;
     }
 
+    .devices{
+  		text-align: center;
+    }
+    .devices li img{
+		width: 94%;
+		margin: 0 3%;
+    }
+    .devices ol{
+  		border:0px;
+  		width: 98%;
+  		margin: 0;
+  		padding:0 0 0 2%;
+    }
+    .devices ol li{
+		width: 100%;
+		font-size: 8px;
+		line-height: 15px;
+    }
 
 	.footer span{
 		font-size: 10px;
@@ -1174,6 +1267,25 @@ p {
     	text-align: left;
     	line-height: 40px;
     }  
+
+    .devices{
+    	text-align: center;
+    }
+    
+    .devices li,.devices li:last-child{
+    	width: 33%;
+    }
+    
+    .devices ol{
+    	width: 95%;
+    	padding:0 0 0 5%;
+    }
+    
+    .devices ol li{
+    	width: 100%;
+    	font-size: 7.5px;
+    	line-height: 12px;
+    }
 
     .footer .links a,.footer .links_fdb{
 	    padding-left: 140px;
