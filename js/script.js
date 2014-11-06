@@ -129,44 +129,27 @@ $('.devices .close').click(function(){
 // slideshow
 
 function slideSwitch() {
-    var $active = $('.section-story03 .game-cover li.active, .section-story03 .game-cover-new li.active');
+    var $active = $('.section-story03 .game-cover li.active');
     var $next =  $active.next().length ? $active.next()
-        : $('.section-story03 .game-cover li:first,.section-story03 .game-cover-new li:first');
+        : $('.section-story03 .game-cover li:first');
+    $active.removeClass('active')
+    $next.addClass('active')
+}
+
+function slideSwitchNew() {
+    var $active = $('.section-story03 .game-cover-new li.active');
+    var $next =  $active.next().length ? $active.next()
+        : $('.section-story03 .game-cover-new li:first');
     $active.removeClass('active')
     $next.addClass('active')
 }
 
 $(function() {
     setInterval( "slideSwitch()", 5000 );
+    setInterval( "slideSwitchNew()", 5000 );
 });
 
 $('.game-cover li, .game-cover-new li').mouseover(function(){
     $('.game-cover li, .game-cover-new li').removeClass('active');
     $(this).addClass('active')
 });
-
-//youtube
-
-var player;
-
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player('player', {
-    videoId: 'SYnLQTfIn9M',
-    events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
-    }
-  });
-}
-
-function onPlayerReady(event) {
-  event.target.playVideo();
-}
-
-var done = false;
-
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.ENDED) {
-    event.target.playVideo();
-  }
-}
