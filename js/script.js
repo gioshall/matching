@@ -41,6 +41,13 @@ $( window ).resize(function() {
 	};
 });
 
+// volume
+
+$('.icon-vol').click( function (){
+    $('video').prop('muted', !$('video').prop('muted'));
+    $( this ).toggleClass( "mute" );
+});
+
 // random hands
 
 var rdmA = Math.floor(Math.random()*(9-0));
