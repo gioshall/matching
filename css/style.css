@@ -981,6 +981,11 @@ p {
 	display: none;
   }
 
+  .section-story04 .howto-btn a{
+	margin: 20px auto;
+  }
+
+
   .devices{
 	width: 90%;
 	left: 5%;
