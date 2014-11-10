@@ -386,15 +386,15 @@ p {
 }
 
 @-webkit-keyframes ray-zoom-in {
-	0%{opacity:.4;-webkit-transform:translate3d(0,0,0) scale(1);}
-	25%{opacity:.5}
-	100%{opacity:.6;-webkit-transform:translate3d(-.8%,0,0) scale(1.16);}
+	0%{opacity:.5;-webkit-transform:translate3d(0,0,0) scale(1);}
+	25%{opacity:.6}
+	100%{opacity:.7;-webkit-transform:translate3d(-.8%,0,0) scale(1.16);}
 }
 
 @keyframes ray-zoom-in {
-	0%{opacity:.4;transform:translate3d(0,0,0) scale(1)}
-	25%{opacity:.5}
-	100%{opacity:.6;transform:translate3d(-2.5%,0,0) scale(1.50)}
+	0%{opacity:.5;transform:translate3d(0,0,0) scale(1)}
+	25%{opacity:.6}
+	100%{opacity:.7;transform:translate3d(-2.5%,0,0) scale(1.50)}
 }
 
 @-webkit-keyframes ray-zoom-in-h {
