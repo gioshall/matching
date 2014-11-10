@@ -981,11 +981,6 @@ p {
 	display: none;
   }
 
-  .section-story04 .howto-btn a{
-	margin: 20px auto;
-  }
-
-
   .devices{
 	width: 90%;
 	left: 5%;
@@ -1097,7 +1092,7 @@ p {
 	}
 
 	.section-story04 .cnnct-logo {
-		top: 180px;
+		top: 220px;
 		width: 100%;
 		text-align: center;
 		right: 0;
@@ -1198,6 +1193,13 @@ p {
 
     .section-story04 {
     	background-position: 65% bottom
+    }
+
+    .section-story04 .howto-btn a{
+	    margin: 15px auto;
+	    width: 120px;
+	    display: block;
+	    text-align: center;
     }
 
     .bottom-block {
