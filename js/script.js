@@ -127,10 +127,12 @@ $('.game-cover .lghp').mouseover(function(){
 
 
 $('.dvc').click(function(){
-    $('.devices').fadeIn(200)
+    $('.devices').fadeIn(200);
+    $('.dvc-mask').show();
 });
-$('.devices .close').click(function(){
-    $('.devices').fadeOut(100)
+$('.devices .close, .dvc-mask').click(function(){
+    $('.devices').fadeOut(100);
+    $('.dvc-mask').hide()
 });
 
 // slideshow
