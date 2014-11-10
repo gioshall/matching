@@ -16,7 +16,7 @@ var device = navigator.userAgent.toLowerCase();
 var mobile = device.match(/(iphone|ipod|ipad|android)/);
 if (mobile) {
      $('.main-block.fixed,.main-block.bottom-block').addClass('mobile');
-     $('video').remove();
+     $('video,.icon-vol').remove();
      }
 });
 
