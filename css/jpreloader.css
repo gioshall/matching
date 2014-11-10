@@ -2,7 +2,7 @@ body{
 	display:none;
 }
 #jpreOverlay {
-	background: #ccc url(../img/logo.png) center no-repeat;
+	background: #666 url(../img/logo.png) center no-repeat;
 }
 #jpreSlide{
 	font-size:22px;

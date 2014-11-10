@@ -324,8 +324,8 @@ p {
 .section-story02 .dui-b ,.section-story02 .dui-y ,.section-story02 .dui-g ,.section-story02 .dui-r {
 	position: absolute;
 	opacity: .8;
-	transition: 0.1s ease-in;
-	-webkit-transition: 0.1s ease-in;
+	transition: 0.05s ease-in;
+	-webkit-transition: 0.05s ease-in;
 }
 
 .section-story02 .dui-r {
@@ -359,21 +359,54 @@ p {
 	width: 100%;
 }
 
-.section-story03 .v-cover {
+.section-story03 .v-cover ,.section-story03 .v-cover-h {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+}
+
+.section-story03 .v-cover {
 	background: url(../img/congrats-bg.jpg) top center no-repeat;
 	background-size: cover;
-	opacity: .8;
-	-webkit-animation: ray-zoom-in 10s ease-in 0s 1;
+	opacity: .7;
+	-webkit-animation: ray-zoom-in 30s ease-in 0s 1 forwards;
+	animation: ray-zoom-in 30s ease-in 0s 1 forwards;
+	-webkit-transform: translate3d(-.4%,0,0) scale(1.08);
 	transform: translate3d(-.4%,0,0) scale(1.08);
 }
 
+.section-story03 .v-cover-h {
+	background: url(../img/congrats-bg-h.png) top center no-repeat;
+	background-size: cover;
+	opacity: 1;
+	-webkit-animation: ray-zoom-in-h 20s ease-in 0s 1 forwards;
+	animation: ray-zoom-in-h 20s ease-in 0s 1 forwards;
+	-webkit-transform: translate3d(-2.5%,0,0) scale(1.50);
+	transform: translate3d(-2.5%,0,0) scale(1.50);
+}
+
 @-webkit-keyframes ray-zoom-in {
-	0%{opacity:.6;-webkit-transform:translate3d(0,0,0) scale(1);transform:translate3d(0,0,0) scale(1)}
-	25%{opacity:.7}
-	100%{opacity:.8;-webkit-transform:translate3d(-.8%,0,0) scale(1.16);transform:translate3d(-.8%,0,0) scale(1.16)}
+	0%{opacity:.4;-webkit-transform:translate3d(0,0,0) scale(1);}
+	25%{opacity:.5}
+	100%{opacity:.6;-webkit-transform:translate3d(-.8%,0,0) scale(1.16);}
+}
+
+@keyframes ray-zoom-in {
+	0%{opacity:.4;transform:translate3d(0,0,0) scale(1)}
+	25%{opacity:.5}
+	100%{opacity:.6;transform:translate3d(-2.5%,0,0) scale(1.50)}
+}
+
+@-webkit-keyframes ray-zoom-in-h {
+	0%{opacity:.8;-webkit-transform:translate3d(0,0,0) scale(1);}
+	25%{opacity:1}
+	100%{-webkit-transform:translate3d(-2.5%,0,0) scale(1.50);}
+}
+
+@keyframes ray-zoom-in-h {
+	0%{opacity:.8;transform:translate3d(0,0,0) scale(1)}
+	25%{opacity:1}
+	100%{transform:translate3d(-.8%,0,0) scale(1.16)}
 }
 
 .section-story03 h2 ,.section-story03 p {
@@ -638,6 +671,18 @@ p {
 	margin: 5px;
 }
 
+.section-story04 .howto-btn a{
+	line-height: 50px;
+	color: #fff;
+	background-color: #1584fe;
+	padding: 0 40px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 20px;
+	margin: 20px 0 0 100px;
+	text-decoration: none;
+}
+
 .app-donload {
 	position: relative;
 	z-index: 5;
@@ -656,6 +701,10 @@ p {
 .app-donload h2 img {
 	float: left;
 	margin-right: 10px;
+}
+
+.app-donload .dvc {
+	letter-spacing: 2px
 }
 
 .app-donload .store {
