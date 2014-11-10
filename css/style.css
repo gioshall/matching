@@ -663,7 +663,7 @@ p {
 .section-story04 .cnnct-logo {
 	position: absolute;
 	right: 100px;
-	top: 0;
+	top: 20px;
 }
 
 .section-story04 .cnnct-logo li {
@@ -705,6 +705,12 @@ p {
 
 .app-donload .dvc {
 	letter-spacing: 2px
+}
+
+.app-donload .dvc span {
+	font-size: 15px;
+	line-height: 25px;
+	font-family: verdana;
 }
 
 .app-donload .store {
