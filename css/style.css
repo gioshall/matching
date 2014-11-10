@@ -703,14 +703,17 @@ p {
 	margin-right: 10px;
 }
 
-.app-donload .dvc {
-	letter-spacing: 2px
+.app-donload a.dvc{
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 3px 0;
+	text-decoration: none;
+	border-bottom: 1px #fff solid
 }
 
-.app-donload .dvc span {
-	font-size: 15px;
-	line-height: 25px;
-	font-family: verdana;
+.app-donload a.dvc:hover{
+	border-bottom: 0px #fff solid
 }
 
 .app-donload .store {
