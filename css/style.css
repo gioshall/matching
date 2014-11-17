@@ -81,7 +81,7 @@ body {
 .main-block .video-mask {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background: url(../img/video-mask.png);
 }
 
@@ -128,7 +128,8 @@ p {
 .section-blk {
 	width: 100%;
 	min-width: 1004px;
-	height: 700px;
+	min-height: 700px;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	position: relative;
@@ -147,7 +148,7 @@ p {
 }
 
 .section-story01 h2 {
-	margin-top: 100px;
+	margin-top: 20%;
 }
 
 .section-story01 .ph1 {
@@ -197,7 +198,7 @@ p {
 }
 
 .section-story02 h2 {
-	margin-top: 130px;
+	margin-top: 20%;
 }
 
 .section-story02 p {
@@ -416,7 +417,7 @@ p {
 }
 
 .section-story03 h2 {
-	margin-top: 100px;
+	margin-top: 23%;
 }
 
 .section-story03 p {
@@ -641,7 +642,7 @@ p {
 }
 
 .section-story04 h2 {
-	margin-top: 250px;
+	margin-top: 35%;
 }
 
 .section-story04 h2 ,.section-story04 p {
