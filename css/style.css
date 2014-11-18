@@ -1296,7 +1296,8 @@ p {
     }
 
     .main-block.mobile {
-		background: #000 url(../img/m-bg-p.jpg) 0 0 no-repeat;
+		background: #000 url(../img/m-bg-p.jpg) top right no-repeat;
+		background-size: auto 100%;
     }
 
     .section-blk .w950 h2 ,.section-blk .w950 p {
