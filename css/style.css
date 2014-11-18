@@ -1295,6 +1295,10 @@ p {
         width: 310px;
     }
 
+    .main-block.mobile {
+		background: #000 url(../img/m-bg-p.jpg) 0 0 no-repeat;
+    }
+
     .section-blk .w950 h2 ,.section-blk .w950 p {
 		width: 300px;
     }
