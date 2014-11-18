@@ -1371,6 +1371,10 @@ p {
 		width: 100%;
     }
 
+    .section-story04 .howto-btn a {
+    	font-size: 16px;
+    }
+
     .app-donload {
     	width: 310px;
     	margin-top: 50px;
