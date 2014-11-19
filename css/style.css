@@ -1437,6 +1437,16 @@ p {
 		width: 100%;
     }
 
+    .section-story04 .wave.w01 {
+		top: 10px;
+		left: 10px;
+	}
+
+	.section-story04 .wave.w02 {
+		bottom: 10px;
+		right: 10px;
+	}
+
     .section-story04 .howto-btn a {
     	font-size: 16px;
     }
