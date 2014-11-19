@@ -97,16 +97,16 @@ $( '.anlg-act' ).mouseover(function() {
 });
 
 $('.btn-y').mouseover(function(){
-$('.dui-y').css({'bottom':'229px','opacity':'1'});
+$('.dui-y').css({'bottom':'229px','opacity':'1','z-index':'1'});
 });
 $('.btn-x').mouseover(function(){
-$('.dui-b').css({'right':'115px','opacity':'1'});
+$('.dui-b').css({'right':'115px','opacity':'1','z-index':'1'});
 });
 $('.btn-b').mouseover(function(){
-$('.dui-r').css({'right':'-860px','opacity':'1'});
+$('.dui-r').css({'right':'-860px','opacity':'1','z-index':'1'});
 });
 $('.btn-a').mouseover(function(){
-$('.dui-g').css({'bottom':'-800px','opacity':'1'});
+$('.dui-g').css({'bottom':'-800px','opacity':'1','z-index':'1'});
 });
 
 $('.dui-02 li').mouseout(function(){
@@ -162,3 +162,9 @@ $('.game-cover li, .game-cover-new li').mouseover(function(){
     $('.game-cover li, .game-cover-new li').removeClass('active');
     $(this).addClass('active')
 });
+
+//wave
+
+setTimeout(function() {
+      $('.wave.w02').show();
+}, 1000);
