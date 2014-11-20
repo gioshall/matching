@@ -696,8 +696,8 @@ p {
 	height: 800px;
 	top: -390px;
 	left: -390px;
-	-webkit-animation: wave-zoom-in 5s ease-in 0s infinite;
-	animation: wave-zoom-in 5s ease-in 0s infinite;	
+	-webkit-animation: wave-zoom-in 6s ease-in 0s infinite;
+	animation: wave-zoom-in 6s ease-in 0s infinite;	
 }
 
 .section-story04 .wave li:nth-of-type(2) {
@@ -706,8 +706,8 @@ p {
 	top: -490px;
 	left: -490px;
 	opacity: 0;
-	-webkit-animation: wave-zoom-in 5s ease-in 0.6s infinite;
-	animation: wave-zoom-in 5s ease-in 0.6s infinite;
+	-webkit-animation: wave-zoom-in 6s ease-in 0.6s infinite;
+	animation: wave-zoom-in 6s ease-in 0.6s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(3) {
@@ -716,8 +716,8 @@ p {
 	top: -590px;
 	left: -590px;
 	opacity: 0;
-	-webkit-animation: wave-zoom-in 5s ease-in 1.2s infinite;
-	animation: wave-zoom-in 5s ease-in 1.2s infinite;
+	-webkit-animation: wave-zoom-in 6s ease-in 1.2s infinite;
+	animation: wave-zoom-in 6s ease-in 1.2s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(4) {
@@ -726,8 +726,8 @@ p {
 	top: -690px;
 	left: -690px;
 	opacity: 0;
-	-webkit-animation: wave-zoom-in 5s ease-in 1.8s infinite;
-	animation: wave-zoom-in 5s ease-in 1.8s infinite;
+	-webkit-animation: wave-zoom-in 6s ease-in 1.8s infinite;
+	animation: wave-zoom-in 6s ease-in 1.8s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(5) {
@@ -736,8 +736,8 @@ p {
 	top: -790px;
 	left: -790px;
 	opacity: 0;
-	-webkit-animation: wave-zoom-in 5s ease-in 2.4s infinite;
-	animation: wave-zoom-in 5s ease-in 2.4s infinite;
+	-webkit-animation: wave-zoom-in 6s ease-in 2.4s infinite;
+	animation: wave-zoom-in 6s ease-in 2.4s infinite;
 }
 
 @-webkit-keyframes wave-zoom-in {
