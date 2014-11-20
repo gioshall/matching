@@ -1476,6 +1476,10 @@ p {
 		right: 10px;
 	}
 
+	.section-story04 .wave li:nth-of-type(4),.section-story04 .wave li:nth-of-type(5) {
+		display: none;
+	}
+
     .section-story04 .howto-btn a {
     	font-size: 16px;
     }
