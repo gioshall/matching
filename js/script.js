@@ -172,8 +172,8 @@ function autoupdate() {
      setTimeout(function(){
         $('.wave.w01').hide();
         setTimeout(autoupdate, 0);
-     }, 4000)
-  }, 4000)
+     }, 3500)
+  }, 3500)
 };
 
 function autoupdate2() {
@@ -182,8 +182,8 @@ function autoupdate2() {
      setTimeout(function(){
         $('.wave.w02').show();
         setTimeout(autoupdate2, 0);
-     }, 4000)
-  }, 4000)
+     }, 3500)
+  }, 3500)
 };
 
 $(function(){ 
