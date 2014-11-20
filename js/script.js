@@ -153,6 +153,7 @@ function slideSwitchNew() {
     $next.addClass('active')
 }
 
+
 $(function() {
     setInterval( "slideSwitch()", 5000 );
     setInterval( "slideSwitchNew()", 5000 );
@@ -165,6 +166,30 @@ $('.game-cover li, .game-cover-new li').mouseover(function(){
 
 //wave
 
-setTimeout(function() {
-      $('.wave.w02').show();
-}, 1000);
+function autoupdate() {
+  setTimeout(function(){
+     $('.wave.w01').show();
+     setTimeout(function(){
+        $('.wave.w01').hide();
+        setTimeout(autoupdate, 0);
+     }, 4000)
+  }, 4000)
+};
+
+function autoupdate2() {
+  setTimeout(function(){
+     $('.wave.w02').hide();
+     setTimeout(function(){
+        $('.wave.w02').show();
+        setTimeout(autoupdate2, 0);
+     }, 4000)
+  }, 4000)
+};
+
+$(function(){ 
+   setTimeout(autoupdate, 0);
+});
+
+$(function(){ 
+   setTimeout(autoupdate2, 0);
+});
