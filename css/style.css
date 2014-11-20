@@ -697,51 +697,26 @@ p {
 }
 
 .section-story04 .wave li:nth-of-type(1) {
-	/*width: 800px;
-	height: 800px;
-	top: -390px;
-	left: -390px;
-	opacity: 0;*/
 	-webkit-animation: wave-zoom-in 4.5s ease-out 0s infinite;
 	animation: wave-zoom-in 4.5s ease-out 0s infinite;	
 }
 
 .section-story04 .wave li:nth-of-type(2) {
-	/*width: 1000px;
-	height: 1000px;
-	top: -490px;
-	left: -490px;
-	opacity: 0;*/
 	-webkit-animation: wave-zoom-in 4.5s ease-out .5s infinite;
 	animation: wave-zoom-in 4.5s ease-out .5s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(3) {
-	/*width: 1200px;
-	height: 1200px;
-	top: -590px;
-	left: -590px;
-	opacity: 0;*/
 	-webkit-animation: wave-zoom-in 4.5s ease-out 1.0s infinite;
 	animation: wave-zoom-in 4.5s ease-out 1.0s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(4) {
-	/*width: 1400px;
-	height: 1400px;
-	top: -690px;
-	left: -690px;
-	opacity: 0;*/
 	-webkit-animation: wave-zoom-in 4.5s ease-out 1.5s infinite;
 	animation: wave-zoom-in 4.5s ease-out 1.5s infinite;
 }
 
 .section-story04 .wave li:nth-of-type(5) {
-	/*width: 1600px;
-	height: 1600px;
-	top: -790px;
-	left: -790px;
-	opacity: 0;*/
 	-webkit-animation: wave-zoom-in 4.5s ease-out 2.0s infinite;
 	animation: wave-zoom-in 4.5s ease-out 2.0s infinite;
 }
