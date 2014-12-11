@@ -77,7 +77,12 @@ $( window ).scroll(function(){
     };
     if ( $(window).scrollTop() > $(window).height() / 1.7) {
     $('.ip-w').css('margin-left', $(window).scrollTop() / -3+'px');
-    $('.ip-b').css('margin-right', $(window).scrollTop() / -3+'px')
+    $('.ip-b').css('margin-right', $(window).scrollTop() / -3+'px');
+    }
+    if ( $(window).scrollTop() > $(window).height() / 1.6) {
+    $('.btn-redeem').addClass('scroll-top');
+    } else {
+    $('.btn-redeem').removeClass('scroll-top');
     }
 });
 
