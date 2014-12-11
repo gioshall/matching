@@ -198,3 +198,25 @@ $(function(){
 $(function(){ 
    setTimeout(autoupdate2, 0);
 });
+
+//smartbanner
+
+$.smartbanner({
+    title: 'GameNow 台灣', // What the title of the app should be in the banner (defaults to <title>)
+    author: '優必達', // What the author of the app should be in the banner (defaults to <meta name="author"> or hostname)
+    price: '免費', // Price of the app
+    appStoreLanguage: 'us', // Language code for App Store
+    inAppStore: 'On the App Store', // Text of price for iOS
+    inGooglePlay: 'In Google Play', // Text of price for Android
+    icon: '/default/img/logo-googleplay.png', // The URL of the icon (defaults to <link>)
+    iconGloss: false, // Force gloss effect for iOS even for precomposed (true or false)
+    button: '開啟', // Text on the install button
+    scale: 'auto', // Scale based on viewport size (set to 1 to disable)
+    speedIn: 300, // Show animation speed of the banner
+    speedOut: 400, // Close animation speed of the banner
+    daysHidden: 0, // Duration to hide the banner after being closed (0 = always show banner)
+    daysReminder: 0, // Duration to hide the banner after "VIEW" is clicked (0 = always show banner)
+    force: null, // Choose 'ios' or 'android'. Don't do a browser check, just always show this banner
+    appendToSelector: '#banner_area',
+    layer: true
+  })
