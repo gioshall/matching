@@ -1388,6 +1388,16 @@ p {
     	background-position: 65% bottom
     }
 
+    .section-story04 .cnnct-logo {
+    	top: 160px;
+    }
+
+    .section-story04 .howto-btn {
+    	position: absolute;
+    	width: 100%;
+    	margin-top: 40%;
+    }
+
     .section-story04 .howto-btn a{
 	    margin: 15px auto;
 	    width: 120px;
