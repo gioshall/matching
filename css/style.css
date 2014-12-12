@@ -1574,6 +1574,10 @@ p {
 		display: none;
 	}
 
+	.section-story04 .howto-btn {
+    	margin-top: 70%;
+    }
+
     .section-story04 .howto-btn a {
     	font-size: 16px;
     }
