@@ -1465,6 +1465,10 @@ p {
 		line-height: 15px;
     }
 
+	.footer {
+		padding-bottom: 55px;
+	}
+
 	.footer span{
 		font-size: 10px;
 	}
