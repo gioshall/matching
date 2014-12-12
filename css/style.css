@@ -1532,6 +1532,10 @@ p {
 		top: 310px;
 	}
 
+	.btn-redeem {
+	    top: 75%;
+    }
+
     .section-story03 .game-cover {
     	left: -5px;
     	top: 300px;
