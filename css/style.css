@@ -1404,7 +1404,7 @@ p {
 
     .section-story04 .howto-btn a{
 	    margin: 15px auto;
-	    font-size: 18px;
+	    font-size: 16px;
 	    width: 120px;
 	    display: block;
 	    text-align: center;
@@ -1585,10 +1585,6 @@ p {
 
 	.section-story04 .howto-btn {
     	margin-top: 70%;
-    }
-
-    .section-story04 .howto-btn a {
-    	font-size: 16px;
     }
 
     .app-donload {
