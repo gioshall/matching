@@ -1278,6 +1278,10 @@ p {
 		width: 500px;
 	}
 
+	.btn-redeem {
+	    top: 75%;
+    }
+
 	.btn-redeem.scroll-top {
 		top: auto;
 		bottom: 0;
@@ -1400,6 +1404,7 @@ p {
 
     .section-story04 .howto-btn a{
 	    margin: 15px auto;
+	    font-size: 18px;
 	    width: 120px;
 	    display: block;
 	    text-align: center;
